@@ -1,0 +1,60 @@
+#shopcar {
+}
+#shopcar .shopcar {
+}
+#shopcar .shopcar .shcar-img {
+  width: 174px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#shopcar .shopcar .shcar-main {
+  width: 1148px;
+  margin: 0 auto;
+}
+#shopcar .shopcar .shcar-main table {
+  border-spacing: 10px;
+  width: 1148px;
+  
+  border: 24px solid darkgray;
+}
+#shopcar .shopcar .shcar-main table tr th {
+  border: 1px solid #0f0;
+  font-size: 30px;
+}
+#shopcar .shopcar .shcar-main table tr td {
+  /* border: 1px solid #f00; */
+  text-align: center;
+}
+#shopcar .shopcar .shcar-main tbody>tr>td .gdsimg{
+    width: 98px;
+    height: 94px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopcar .shopcar .shcar-main tr>td:nth-child(1){
+    width: 400px;
+}
+#shopcar .shopcar .shcar-main tr>td:nth-child(5){width: 110px;}
+#shopcar .shopcar .shcar-main tr>td:nth-child(5)>input{width: 50px;}
+#shopcar .shopcar .shcar-main tbody>tr>td>div{
+  display: flex;
+  width: 400px;
+}
+#shopcar .shopcar .shcar-main tbody>tr>td .gdsimg img{
+    width: 56px;
+    height: 68px;
+    display: block;
+
+    
+
+}
+#shopcar .shopcar .shcar-main tbody>tr>td .gdinfo{
+    text-align: center;
+    height: 94px;
+    width: 302px;
+    text-align: center;
+    line-height: 94px;
+    
+}

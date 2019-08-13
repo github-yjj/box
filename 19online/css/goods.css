@@ -1,0 +1,196 @@
+#nav .nav {
+  position: relative;
+}
+#nav .nav .speci {
+  width: 200px;
+  position: absolute;
+  height: 40px;
+  background-color: firebrick;
+  left: 0;
+  top: -4px;
+  font: 12px/40px "";
+  text-indent: 2em;
+  font-weight: 800;
+  color: white;
+}
+#nav .nav .speci a {
+  color: white;
+}
+#nav .nav .goodsort {
+  display: none;
+}
+
+#clear .clear {
+  height: 10px;
+}
+
+#gd-banner .gd-banner {
+  height: 153px;
+  background: darkblue;
+  overflow: hidden;
+}
+
+#gd-case-1 .gd-case-1 {
+  border: 1px solid grey;
+  width: 1198px;
+  height: 2830px;
+}
+
+#gd-case-1 .gd-case-1 .gd-case-1-con {
+  width: 1152px;
+  /* height: 2082px; */
+  position: relative;
+  padding: 23px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .paging {
+  width: 904px;
+  height: 36px;
+  background: darkslateblue;
+  position: absolute;
+  left: 23px;
+  bottom: 0;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list {
+  height: 165px;
+  margin-bottom: 10px;
+
+  display: flex;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-l {
+  width: 167px;
+  height: 165px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-l > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-indent: 20px;
+  margin-top: 20px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-l > ul > li {
+  width: 167px;
+  margin-bottom: 4px;
+  background: whitesmoke;
+  border: 1px solid #ccc;
+  height: 22px;
+  font: 12px/22px "";
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-c {
+  display: flex;
+  flex-direction: column;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-c p {
+  margin: 15px 0 0 10px;
+}
+
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-c {
+  width: 680px;
+  border: 1px solid #ccc;
+  height: 162px;
+  margin: 0 10px 0 10px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gd-case-1-con-list .gd-list-r {
+  width: 196px;
+  height: 165px;
+  
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistleft {
+  border:1px solid whitesmoke;
+  width: 220px;
+  height: 1230px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistleft > ul {
+  display: flex;
+  flex-direction: column;
+  
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistleft > ul > li {
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistleft > i {
+  display: block;
+  height: 30px;
+  font: 12px/30px "";
+  text-indent: 2em;
+  
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistleft {
+ 
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con {
+ position: relative;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistright {
+  position: absolute;
+  left: 256px;
+  top:248px;
+  width: 860px;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistright > h3 {
+  
+  border-bottom: 2px solid darkred;
+  height: 30px;
+  font:14px/30px "";
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistright>ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  /* background:darkgoldenrod; */
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .gdlistright>ul>li{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  width: 200px;
+  height:270px;
+  cursor: pointer;
+}
+
+#gd-case-1 .gd-case-1 .gd-case-1-con .tile {
+  height: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .tile .utile {
+  display: flex;
+}
+#gd-case-1 .gd-case-1 .gd-case-1-con .tile .utile li {
+  height: 28px;
+  width: 135px;
+  background-color: #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: none;
+  font: 14px/28px "";
+  margin-left: 5px;
+  text-align: center;
+}
+#detailcase-1{}
+#detailcase-1 .detailcase-1{}
+#detailcase-1 .detailcase-1 .detailcase1-co{
+  margin-left:140px;
+  /* background:darkblue; */
+  width: 960px;
+}
+#detailcase-1 .detailcase-1 .detailcase1-co>h1{
+  height: 51px;
+  line-height: 51px;
+  border-bottom: 2px solid darkred;
+
+}
+#detailcase-1 .detailcase-1 .detailcase1-co>p{
+  padding-top:20px;
+  text-indent: 2em;
+}
+#detailcase-1 .detailcase-1 .detailcase1-co>img{
+  padding-top:20px;
+  margin-left: 40px;
+}
+#void .void {
+  height: 12px;
+}

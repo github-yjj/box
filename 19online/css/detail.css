@@ -1,0 +1,121 @@
+/* #nav .nav {
+  position: relative;
+}
+#nav .nav .speci {
+  width: 200px;
+  position: absolute;
+  height: 40px;
+  background-color: firebrick;
+  left: 0;
+  top: -4px;
+  font: 12px/40px "";
+  text-indent: 2em;
+  font-weight: 800;
+  color: white;
+}
+#nav .nav .speci a {
+  color: white;
+}
+#nav .nav .goodsort {
+  display: none;
+}
+
+
+
+#void .void {
+  height: 12px;
+} */
+
+#detailcase {
+}
+#detailcase .dlcase .dlcasesh {
+  height: 530px;
+  width: 1084px;
+  /* background: darkblue; */
+  display: flex;
+  position: relative;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-l {
+  width: 330px;
+  height: 396px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-l img {
+  display: block;
+  width: 330px;
+  height: 396px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r {
+  width: 730px;
+  height: 421px;
+
+  margin-left: 360px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r > h1 {
+  height: 51px;
+  line-height: 51px;
+  text-indent: 10px;
+  border-bottom: 2px solid #ccc;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r > p {
+  text-indent: 10px;
+  padding-top: 20px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r > p > span:nth-child(2) {
+  font-size: 20px;
+  color: darkred;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r .dlcaseshr-b {
+  margin-top: 180px;
+  height: 100px;
+  /* background:darkblue; */
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r .dlcaseshr-b > p {
+  margin-bottom: 30px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-r .dlcaseshr-b > p > input {
+  width: 40px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-l {
+  width: 330px;
+  height: 396px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-l img {
+  width: 330px;
+  height: 396px;
+}
+
+#detailcase .dlcase .dlcasesh .dlcasesh-l > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(200, 200, 200, 0.9);
+  display: none;
+}
+
+#detailcase .dlcase .dlcasesh .dlcasesh-l > p {
+  width: 330px;
+  height: 396px;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-box {
+  width: 330px;
+  height: 420px;
+  position: absolute;
+  left: 330px;
+  top: 0px;
+  overflow: hidden;
+  display: none;
+  
+  
+}
+#detailcase .dlcase .dlcasesh .dlcasesh-box > img {
+  width: 1200px;
+  position: absolute;
+}
